@@ -18,7 +18,7 @@ public class UpdateProductPrice {
 
 			System.out.println("Enter ID and Price: ");
 			
-			pdao.updateProductPrice(sc.nextInt(), sc.nextDouble());
+			System.out.println(pdao.updateProductPrice(sc.nextInt(), sc.nextDouble()));
 
 		}catch (Exception e) {
 			e.printStackTrace();
