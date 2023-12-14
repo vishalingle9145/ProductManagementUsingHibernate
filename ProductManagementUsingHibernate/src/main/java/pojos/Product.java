@@ -53,6 +53,14 @@ public class Product {
 		this.manufactureDate = manufactureDate;
 	}
 
+	public Product(Integer productId, String name, double price, int stock) {
+		super();
+		this.productId = productId;
+		this.name = name;
+		this.price = price;
+		this.stock = stock;
+	}
+
 //	getters and setters
 	public Integer getProductId() {
 		return productId;
